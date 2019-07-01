@@ -1,1 +1,16 @@
+Steps followed to generate the GradCam heatmap for the CIFAR10 images.
 
+Step 1:
+Generate the RESNET18 Model follow the link given below.
+(https://keras.io/examples/cifar10_resnet/)
+Follow the file Resent_CIFAR10.ipynb for generating the RESNET model.
+
+step 2:
+Download the CIFAR10 dataset, and unpickle the files.
+Store the image into the google drive in 32x32 pixel format.
+Follow the file Load_and_save_CIFAR10_dataset.ipynb
+
+step 3:
+Go through the GradCam sample in the 
+http://www.hackevolve.com/where-cnn-is-looking-grad-cam/
+Follow the file Visualize_CIFAR10_classification_using_GradCam.ipynb
